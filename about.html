@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PCX Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-    <head>
-        <meta charset="utf-8">
-        <title>PCX Integrated Services Limited</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
 
-        
-
-    </head>
-
-    <body>
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
-
-
-       
     <!-- Navbar start -->
     <div
       class="container-fluid border-bottom bg-light wow fadeIn"
@@ -63,7 +68,7 @@
             >
           </div>
           <div class="top-link pe-2">
-            <a href="" class="btn btn-light btn-sm-square rounded-circle"
+            <a href="https://www.facebook.com/share/12M5q7Kv7Pv/" class="btn btn-light btn-sm-square rounded-circle"
               ><i class="fab fa-facebook-f text-secondary"></i
             ></a>
             <a href="" class="btn btn-light btn-sm-square rounded-circle"
@@ -80,12 +85,14 @@
       </div>
       <div class="container px-0">
         <nav class="navbar navbar-light navbar-expand-xl py-3">
-          <a href="./index.html" class="navbar-brand d-flex align-items-center gap-2">
-        <img src="img/pcx_logo.png" alt="PCX logo" style="height: 80px; width: auto;">
-        <span class="text-primary fs-3 fw-bold mb-0">
-          PCX <span class="text-secondary">ISL</span>
-        </span>
-        </a>
+          <a
+            href="./index.html"
+            class="navbar-brand d-flex align-items-center gap-2"
+          >
+            <span class="text-primary fs-3 fw-bold mb-0">
+              PCX <span class="text-secondary">Academy</span>
+            </span>
+          </a>
           <button
             class="navbar-toggler py-2 px-3"
             type="button"
@@ -136,7 +143,7 @@
               <div class="d-flex flex-column pe-3 border-end border-primary">
                 <span class="text-primary">Have any questions?</span>
                 <a href="#"
-                  ><span class="text-secondary">Free: +2347067812926</span></a
+                  ><span class="text-secondary">Free: +2349124484062</span></a
                 >
               </div>
             </div>
@@ -153,51 +160,74 @@
     </div>
     <!-- Navbar End -->
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
+    <!-- Modal Search Start -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Search by keyword
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body d-flex align-items-center">
+            <div class="input-group w-75 mx-auto d-flex">
+              <input
+                type="search"
+                class="form-control p-3"
+                placeholder="keywords"
+                aria-describedby="search-icon-1"
+              />
+              <span id="search-icon-1" class="input-group-text p-3"
+                ><i class="fa fa-search"></i
+              ></span>
             </div>
+          </div>
         </div>
-        <!-- Modal Search End -->
+      </div>
+    </div>
+    <!-- Modal Search End -->
 
-        
-        <!-- Page Header Start -->
-        <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4">About Us</h1>
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white" aria-current="page">About Us</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- Page Header End -->
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4">About Us</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-white" aria-current="page">
+              About Us
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
 
-
-          <!-- About Start -->
+    <!-- About Start -->
     <div class="container-fluid py-5 about bg-light">
       <div class="container py-5">
         <div class="row g-5 align-items-center">
           <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="video border">
-                            <img src="img/blog-2.jpg" alt="" class="img-fluid" />
-                        </div>
-                    </div>
+            <div class="video border">
+              <img src="img/blog-2.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
           <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
             <h4
               class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
@@ -250,36 +280,39 @@
     </div>
     <!-- About End -->
 
-
-        <!-- Footer Start -->
+    <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
       <div class="container py-5">
         <div class="row justify-content-between gap-4">
-          <div class="col-lg-6  col-xl-3 ">
+          <div class="col-lg-6 col-xl-3">
             <div class="footer-item">
               <h2 class="fw-bold mb-3">
                 <span class="text-primary mb-0">PCX </span
-                ><span class="text-secondary">ISL</span>
+                ><span class="text-secondary">Academy</span>
               </h2>
               <p class="mb-4">
                 Join hundreds of successful students. Get started with PCX
-                Integrated Services today!
+                Academy today!
               </p>
               <div class="border border-primary p-3 rounded bg-light">
-            <h5 class="mb-3 text-center">WhatsApp</h5>
-            <div class="position-relative mx-auto rounded d-flex justify-content-center align-items-center" style="max-width: 400px;">
-              <a href="https://wa.me/2347067812926"
-                class="btn d-flex align-items-center gap-2 px-4 py-2 text-white bg-success border-0 whatsapp-btn"
-                target="_blank">
-                <i class="bi bi-whatsapp fs-3"></i>
-                <span class="fw-semibold">Message PCX on WhatsApp</span>
-              </a>
-            </div>
-            </div>
-
+                <h5 class="mb-3 text-center">WhatsApp</h5>
+                <div
+                  class="position-relative mx-auto rounded d-flex justify-content-center align-items-center"
+                  style="max-width: 400px"
+                >
+                  <a
+                    href="https://wa.me/2347067812926"
+                    class="btn d-flex align-items-center gap-2 px-4 py-2 text-white bg-success border-0 whatsapp-btn"
+                    target="_blank"
+                  >
+                    <i class="bi bi-whatsapp fs-3"></i>
+                    <span class="fw-semibold">Message PCX on WhatsApp</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          
+
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="footer-item">
               <h4
@@ -294,7 +327,7 @@
                 >
                 <a href="" class="text-start rounded-0 text-body mb-4"
                   ><i class="fa fa-phone-alt text-primary me-2"></i> (+234) 803
-                  4526 423 | (+234) 706 7812 926</a
+                  4526 423 | (+234) 912 4484 062</a
                 >
                 <a href="" class="text-start rounded-0 text-body mb-4"
                   ><i class="fas fa-envelope text-primary me-2"></i>
@@ -307,7 +340,7 @@
                 <div class="footer-icon d-flex">
                   <a
                     class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"
-                    href=""
+                    href="https://www.facebook.com/share/12M5q7Kv7Pv/"
                     ><i class="fab fa-facebook-f"></i
                   ></a>
                   <a
@@ -334,17 +367,14 @@
     </div>
     <!-- Footer End -->
 
-
-
-       <!-- Copyright Start -->
+    <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
             <span class="text-light"
               ><a href="#"
-                ><i class="fas fa-copyright text-light me-2"></i>PCX Integrated
-                Services Limited</a
+                ><i class="fas fa-copyright text-light me-2"></i>PCX Academy</a
               >, All right reserved.</span
             >
           </div>
@@ -362,12 +392,13 @@
     </div>
     <!-- Copyright End -->
 
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -379,6 +410,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
-
+  </body>
 </html>
